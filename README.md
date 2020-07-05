@@ -4,9 +4,9 @@ Realtime 2d pose using camera.
 Pose estimator: HRNet
 
 # Environment
-pytorch >= 1.0
-
 python >= 3.6
+
+pytorch >= 1.0
 
 Anaconda3
 
@@ -17,6 +17,14 @@ run this create virtural env:
 # Usage
 
 > python tools/hrnet_2d_realtime.py
+
+# Use with UI
+
+you need PyQt 
+
+run this:
+
+> python tools/hrnet_2d_realtime_UI.py
 
 # Pre-trained model
 
